@@ -5,9 +5,6 @@ const nextConfig = {
             "res.cloudinary.com",
         ]
     },
-    experimental: {
-        appDir: true,
-    },
     typescript: {
         ignoreBuildErrors: true,
     }
