@@ -68,6 +68,8 @@ export const GET = async (req: NextRequest) => {
       )
   
       const googleData = (await googleRes.json()) as GoogleUser
+
+      console.log("[GOOGLE_DATA]", googleData);
   
       try {
 
